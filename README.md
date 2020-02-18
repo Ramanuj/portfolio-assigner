@@ -16,7 +16,7 @@ go to com.portfolio.assigner.PortfolioAssignerApplication and run
 customers can be uploaded using either the file upload or through a rest service
 
 using form to load the customers
-http://localhost:8080/file/form
+http://localhost:8080/file/form,
 http://localhost:8080/file/upload
 
 loading through a rest service
