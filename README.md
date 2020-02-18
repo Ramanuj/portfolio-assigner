@@ -21,3 +21,26 @@ http://localhost:8080/file/upload
 
 loading through a rest service
 http://localhost:8080/api/addCusomers
+
+## Sample Json for Rest service
+[
+	{
+		"firstName":"First Name",
+		"lastName":"Last Name",
+		"dateOfBirth":"06031990",
+		"asset":"343534.23"
+	},
+  	{
+		"firstName":"First Name again",
+		"lastName":"Last Name again",
+		"dateOfBirth":"06031990",
+		"asset":"343534.23"
+	},
+]
+
+## File type for upload
+text and csv
+
+TEXT Format
+fname|lname|06031990|234567
+fnameagain|lnameagain|19051991|345663
