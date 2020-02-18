@@ -42,5 +42,4 @@ http://localhost:8080/api/addCusomers
 text and csv
 
 TEXT Format
-fname|lname|06031990|234567
-fnameagain|lnameagain|19051991|345663
+added customers.txt and customers.csv
