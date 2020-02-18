@@ -7,11 +7,9 @@ Assign a portfolio ‘model’ to each customer based on their age using Spring 
 run mvn clean install to download the dependencies
 
 to run the application
-
+go to com.portfolio.assigner.PortfolioAssignerApplication and run as main 
 
 ## Usage
-
-go to com.portfolio.assigner.PortfolioAssignerApplication and run 
 
 customers can be uploaded using either the file upload or through a rest service
 
