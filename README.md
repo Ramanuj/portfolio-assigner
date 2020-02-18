@@ -41,5 +41,4 @@ http://localhost:8080/api/addCusomers
 ## File type for upload
 text and csv
 
-TEXT Format
 added customers.txt and customers.csv
