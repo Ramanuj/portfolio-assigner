@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1"></meta>
+<title>Customer View</title>
+</head>
+<body>
+	<div th:if="${msg}">
+		<span th:text="${msg}"></span>
+	</div>
+
+	<div th:if="${msg2}">
+		<span th:text="${msg2}"></span>
+	</div>
+
+	<table>
+		<thead>
+			<tr>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Portfolio Name</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:each="customer: ${customers}">
+				<td th:text="${customer.firstName}" />
+				<td th:text="${customer.lastName}" />
+				<td th:text="${customer.portfolio.portfolioName}" />
+			</tr>
+		</tbody>
+	</table>
+
+	<div>
+		<span> <a href="/file/form">Upload More File</a>
+		</span>
+	</div>
+</body>
+</html>
